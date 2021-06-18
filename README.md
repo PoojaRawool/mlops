@@ -25,3 +25,9 @@ git add .
 
 git commit -m "first commit"
 
+git add . && git commit -m "updated README.md"
+
+git remote add origin https://github.com/PoojaRawool/mlops.git
+git branch -M main
+git push -u origin main
+
